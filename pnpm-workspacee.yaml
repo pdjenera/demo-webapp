@@ -1,0 +1,8 @@
+Step 4: Create pnpm-workspace.yaml
+
+packages:
+  # include packages in subfolders (e.g. apps/ and packages/)
+  - "apps/**"
+  - 'packages/**'
+  # if required, exclude some directories
+  - '!**/test/**'
