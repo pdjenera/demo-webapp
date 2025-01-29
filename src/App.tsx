@@ -1,6 +1,7 @@
 import React from 'react';
-import { Card, Header } from 'pdjenera-component-library'
+import { Card, Header, CustomThemeProvider } from 'pdjenera-component-library'
 import { AppContainer, CardContainer } from './App.styled.ts'
+import { theme } from './Theme.tsx';
 
 const headerIcon = <img src='/inbev-logo.png' alt="logo" className="App-logo" />
 const onLogin = () => console.log('User logged in')
@@ -29,25 +30,27 @@ const CardContent = [{
 
 const App = () => {
   return (
-    <AppContainer>
-      <Header 
-        icon={headerIcon}
-        onLogin = {onLogin}
-        onLogout = {onLogout}
-        onCreateAccount = {onCreateAccount}
-      />
-      <CardContainer>
-        { CardContent.map((card, index) => (
-        <Card 
-            image={card.image}
-            title={card.title}
-            description={card.description}
-            eyebrow={card.eyebrow}
-            onClick={card.onClick}
-          />
-        ))}
-      </CardContainer>
-    </AppContainer>
+    <CustomThemeProvider theme={theme}>
+      <AppContainer>
+        <Header 
+          icon={headerIcon}
+          onLogin = {onLogin}
+          onLogout = {onLogout}
+          onCreateAccount = {onCreateAccount}
+        />
+        <CardContainer>
+          { CardContent.map((card, index) => (
+          <Card 
+              image={card.image}
+              title={card.title}
+              description={card.description}
+              eyebrow={card.eyebrow}
+              onClick={card.onClick}
+            />
+          ))}
+        </CardContainer>
+      </AppContainer>
+    </CustomThemeProvider>
   );
 }
 
