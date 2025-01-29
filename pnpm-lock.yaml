@@ -21,8 +21,8 @@ importers:
         specifier: 1.2.0
         version: 1.2.0
       pdjenera-component-library:
-        specifier: ^1.3.0
-        version: 1.3.0(@storybook/addons@7.6.17(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@storybook/react@8.5.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(storybook@8.5.1)(typescript@5.7.3))(@storybook/theming@8.5.1(storybook@8.5.1))(esbuild@0.24.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
+        specifier: ^1.4.0
+        version: 1.4.0(@storybook/addons@7.6.17(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@storybook/react@8.5.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(storybook@8.5.1)(typescript@5.7.3))(@storybook/theming@8.5.1(storybook@8.5.1))(esbuild@0.24.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -5352,8 +5352,8 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
 
-  pdjenera-component-library@1.3.0:
-    resolution: {integrity: sha512-lUGNPgNA1jj0nZlX0HDo9aiI2OxSYocHSunaydECAkNUkKvOW46iL+EMqGPJjWmXEGxVeOoenb7szra9aK3mYA==}
+  pdjenera-component-library@1.4.0:
+    resolution: {integrity: sha512-wHz/gRfPS8JTvH1ATsUY2h807pIN+pivaqMLYNvPv2MDNHMgZ+gndwClJL4koPQ7r7kFY9MEfWK0mKbO9RJjmg==}
     peerDependencies:
       react: '>=16'
 
@@ -14079,7 +14079,7 @@ snapshots:
 
   path-type@4.0.0: {}
 
-  pdjenera-component-library@1.3.0(@storybook/addons@7.6.17(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@storybook/react@8.5.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(storybook@8.5.1)(typescript@5.7.3))(@storybook/theming@8.5.1(storybook@8.5.1))(esbuild@0.24.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3):
+  pdjenera-component-library@1.4.0(@storybook/addons@7.6.17(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@storybook/react@8.5.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(storybook@8.5.1)(typescript@5.7.3))(@storybook/theming@8.5.1(storybook@8.5.1))(esbuild@0.24.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3):
     dependencies:
       '@commitlint/cli': 19.6.1(@types/node@22.10.10)(typescript@5.7.3)
       '@commitlint/config-conventional': 19.6.0
