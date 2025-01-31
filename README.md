@@ -1,4 +1,4 @@
-# pdjenera-component-library
+# pdjenera-demo-webapp
 <a id="readme-top"></a>
 <br />
 <div align="center">
@@ -46,10 +46,7 @@ This project was built with following librarie
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Styled Components](https://styled-components.com/)
-- [Storybook](https://storybook.js.org/)
-- [Jest](https://jestjs.io/)
-- [Rollup](https://rollupjs.org/)
+- [pdjenera-component-library](https://www.npmjs.com/package/pdjenera-component-library)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
